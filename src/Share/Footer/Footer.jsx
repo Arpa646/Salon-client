@@ -25,15 +25,17 @@ const Footer = () => {
     <li class="link link-hover">Privacy policy</li> 
     <li class="link link-hover">Cookie policy</li>
   </div> 
-  <div className='col-lg-3'>
+  <div className='col-lg-3 '>
     <h3 class="footer-title">Newsletter</h3> 
-    <div class="form-control w-80">
-      <label class="label">
-        <h3 class="label-text">Enter your email address</h3>
+    <div class="form-control w-80 bg-trasparent">
+      <label class="label ">
+        <h5 class="label-text">Enter your email address</h5>
       </label> 
-      <div class="relative">
-        <input type="text" placeholder="username@site.com" class="input input-bordered w-full pr-16" /> 
-        <button class="btn btn-primary absolute top-0 right-0 rounded-l-none">Subscribe</button>
+      <div class="relative ">
+        <input className='input-newslater' type="text" placeholder="username@site.com" class="input input-bordered w-full pr-16" /> 
+       
+       <br />
+        <button class="btn1 shadow-lg">Subscribe</button>
       </div>
     </div>
   </div>

@@ -11,10 +11,18 @@ import {
   Link,
 } from "react-router-dom";
 import Layout from './Pages/Home/Layout.jsx';
+import Home from './Pages/Home/Home.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Layout></Layout>
+    ,
+    children:[
+      {
+        path:'/',
+        element:<Home></Home>
+      }
+    ]
   },
   {
     path: "about",

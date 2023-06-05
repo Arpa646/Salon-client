@@ -1,4 +1,24 @@
 .bg-design{
     background-color: #72961eaf;
 }
+.bg-trasparent{
+    background-color: transparent;
+    border: none;
+}
+.btn1{
+    border: none;
+    padding: 6px 18px;
+    margin-top: 10px;
+    border-top-right-radius:10px ;
+    border-bottom-left-radius: 10px ;
+    background-color: bisque;
+    font-weight: bolder;
+    }
+    .input-newslater{
+        border: none;
+        border-bottom: 1px solid bisque;
+        background-color: transparent;
+        
+    }
+
 
