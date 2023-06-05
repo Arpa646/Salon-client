@@ -10,15 +10,11 @@ import {
   Route,
   Link,
 } from "react-router-dom";
+import Layout from './Pages/Home/Layout.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
-    element: (
-      <div>
-        <h1>Hello World</h1>
-        <Link to="about">About Us</Link>
-      </div>
-    ),
+    element: <Layout></Layout>
   },
   {
     path: "about",
